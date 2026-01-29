@@ -1,0 +1,28 @@
+{
+    "checksum": "c595282548d5ec4febb737db0d998a3e",
+    "wallpaper": "/home/dirolov/Pictures/torvalds.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#190b19",
+        "foreground": "#c5c2c5",
+        "cursor": "#c5c2c5"
+    },
+    "colors": {
+        "color0": "#190b19",
+        "color1": "#8c8a81",
+        "color2": "#97877e",
+        "color3": "#8d928c",
+        "color4": "#959389",
+        "color5": "#aa928c",
+        "color6": "#9f9e9a",
+        "color7": "#998e99",
+        "color8": "#6e5a6e",
+        "color9": "#BBB9AC",
+        "color10": "#CAB5A9",
+        "color11": "#BDC3BB",
+        "color12": "#C7C5B7",
+        "color13": "#E3C3BB",
+        "color14": "#D4D3CE",
+        "color15": "#c5c2c5"
+    }
+}

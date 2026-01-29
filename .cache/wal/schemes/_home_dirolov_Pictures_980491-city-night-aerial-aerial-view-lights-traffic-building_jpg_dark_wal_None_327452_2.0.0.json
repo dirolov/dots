@@ -1,0 +1,28 @@
+{
+    "checksum": "1225097a6c319cea531f0c6ef239e778",
+    "wallpaper": "/home/dirolov/Pictures/980491-city-night-aerial-aerial-view-lights-traffic-building.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1920",
+        "foreground": "#c2c5c7",
+        "cursor": "#c2c5c7"
+    },
+    "colors": {
+        "color0": "#0e1920",
+        "color1": "#455258",
+        "color2": "#475C63",
+        "color3": "#526970",
+        "color4": "#686B6E",
+        "color5": "#956E66",
+        "color6": "#637B83",
+        "color7": "#c2c5c7",
+        "color8": "#5d6972",
+        "color9": "#455258",
+        "color10": "#475C63",
+        "color11": "#526970",
+        "color12": "#686B6E",
+        "color13": "#956E66",
+        "color14": "#637B83",
+        "color15": "#c2c5c7"
+    }
+}

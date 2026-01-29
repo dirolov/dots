@@ -1,0 +1,21 @@
+set $wallpaper /home/dirolov/Pictures/Wallpapers/wallpapersden.com_windows-11-4k-green-glow_3840x2400.jpg
+
+set $background #070f12
+set $foreground #c1c3c3
+
+set $color0 #070f12
+set $color1 #063C44
+set $color2 #0C4E4B
+set $color3 #136759
+set $color4 #119B5C
+set $color5 #23C253
+set $color6 #8AE45E
+set $color7 #c1c3c3
+set $color8 #56676a
+set $color9 #063C44
+set $color10 #0C4E4B
+set $color11 #136759
+set $color12 #119B5C
+set $color13 #23C253
+set $color14 #8AE45E
+set $color15 #c1c3c3

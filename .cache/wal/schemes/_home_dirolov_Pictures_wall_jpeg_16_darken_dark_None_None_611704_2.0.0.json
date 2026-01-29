@@ -1,0 +1,28 @@
+{
+    "checksum": "254ca1efddad17a6553d2a53b63d4030",
+    "wallpaper": "/home/dirolov/Pictures/wall.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#110814",
+        "foreground": "#c3c1c4",
+        "cursor": "#c3c1c4"
+    },
+    "colors": {
+        "color0": "#110814",
+        "color1": "#4e383f",
+        "color2": "#682a4c",
+        "color3": "#863c4f",
+        "color4": "#b9665a",
+        "color5": "#542465",
+        "color6": "#7c3770",
+        "color7": "#938c97",
+        "color8": "#66586b",
+        "color9": "#684B54",
+        "color10": "#8B3866",
+        "color11": "#B3516A",
+        "color12": "#F78979",
+        "color13": "#713087",
+        "color14": "#A64A96",
+        "color15": "#c3c1c4"
+    }
+}

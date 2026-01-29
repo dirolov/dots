@@ -1,0 +1,28 @@
+{
+    "checksum": "bcd2ad0bcb4b6092873b81bdb1565920",
+    "wallpaper": "/home/dirolov/Pictures/Screenshot_freebsd_2025-12-13_20:44:57.png",
+    "alpha": "100",
+    "special": {
+        "background": "#120707",
+        "foreground": "#c3c1c1",
+        "cursor": "#c3c1c1"
+    },
+    "colors": {
+        "color0": "#120707",
+        "color1": "#742727",
+        "color2": "#4f036a",
+        "color3": "#5f0081",
+        "color4": "#414b6f",
+        "color5": "#620086",
+        "color6": "#65557e",
+        "color7": "#968c8c",
+        "color8": "#6a5656",
+        "color9": "#9B3535",
+        "color10": "#6A058E",
+        "color11": "#7F00AD",
+        "color12": "#576594",
+        "color13": "#8300B3",
+        "color14": "#8772A8",
+        "color15": "#c3c1c1"
+    }
+}

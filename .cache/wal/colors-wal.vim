@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/dirolov/Pictures/Wallpapers/wallpapersden.com_windows-11-4k-green-glow_3840x2400.jpg"
+let background = "#070f12"
+let foreground = "#c1c3c3"
+let cursor     = "#c1c3c3"
+
+" Colors
+let color0  = "#070f12"
+let color1  = "#063C44"
+let color2  = "#0C4E4B"
+let color3  = "#136759"
+let color4  = "#119B5C"
+let color5  = "#23C253"
+let color6  = "#8AE45E"
+let color7  = "#c1c3c3"
+let color8  = "#56676a"
+let color9  = "#063C44"
+let color10 = "#0C4E4B"
+let color11 = "#136759"
+let color12 = "#119B5C"
+let color13 = "#23C253"
+let color14 = "#8AE45E"
+let color15 = "#c1c3c3"

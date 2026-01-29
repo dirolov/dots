@@ -1,0 +1,28 @@
+{
+    "checksum": "251f915890dfd1f50ce222d7ae8d09e8",
+    "wallpaper": "/home/dirolov/Pictures/n0wallas_1786.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#27371f",
+        "foreground": "#c9cdc7",
+        "cursor": "#c9cdc7"
+    },
+    "colors": {
+        "color0": "#27371f",
+        "color1": "#8a4b30",
+        "color2": "#774349",
+        "color3": "#7b6822",
+        "color4": "#a96e06",
+        "color5": "#172a7c",
+        "color6": "#184074",
+        "color7": "#9da49a",
+        "color8": "#708069",
+        "color9": "#B86441",
+        "color10": "#9F5A62",
+        "color11": "#A58B2E",
+        "color12": "#E29309",
+        "color13": "#1F38A6",
+        "color14": "#21569B",
+        "color15": "#c9cdc7"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "checksum": "198099f6f0f4339a5438b461292e1a53",
+    "wallpaper": "/home/dirolov/.config/sway/wp.png",
+    "alpha": "100",
+    "special": {
+        "background": "#121311",
+        "foreground": "#c3c4c3",
+        "cursor": "#c3c4c3"
+    },
+    "colors": {
+        "color0": "#121311",
+        "color1": "#798652",
+        "color2": "#9E9E52",
+        "color3": "#969267",
+        "color4": "#82768A",
+        "color5": "#AB9C99",
+        "color6": "#C9B1AD",
+        "color7": "#c3c4c3",
+        "color8": "#5a6e5a",
+        "color9": "#798652",
+        "color10": "#9E9E52",
+        "color11": "#969267",
+        "color12": "#82768A",
+        "color13": "#AB9C99",
+        "color14": "#C9B1AD",
+        "color15": "#c3c4c3"
+    }
+}
