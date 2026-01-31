@@ -12,7 +12,7 @@ CONFIG_DIR="$HOME/.config"
 MAIN_PACKAGES=(
     "sway" "waybar" "fish" "kitty" "fuzzel" "mako" "thunar" "micro" "python-pywal16"
     "cava" "fastfetch" "lsd" "most" "fzf"
-    "ttf-google-fonts-git" "nerd-fonts"
+    "ttf-google-sans-code-nf" "ttf-google-sans"
     "xdg-desktop-portal-wlr" "mate-polkit" "sway-alttab-gui" "xwayland-satellite"
 )
 
