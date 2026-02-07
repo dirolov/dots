@@ -1,0 +1,18 @@
+[color]
+background = '#1E1E1E'
+foreground = '#FFFFFF'
+
+gradient = 1
+gradient_color_1 = '#2EC27E'  # Green accent from Adwaita
+gradient_color_2 = '#1E78E4'  # Blue accent from Adwaita
+gradient_color_3 = '#9841BB'  # Purple accent from Adwaita
+gradient_color_4 = '#0AB9DC'  # Cyan accent from Adwaita
+gradient_color_5 = '#F5C211'  # Yellow accent from Adwaita
+
+horizontal_gradient = 0
+
+# Alternative gradient that follows Adwaita's color scheme more closely
+# gradient_color_1 = '#C01C28'  # Red accent
+# gradient_color_2 = '#2EC27E'  # Green accent 
+# gradient_color_3 = '#F5C211'  # Yellow accent
+# gradient_color_4 = '#1E78E4'  # Blue accent

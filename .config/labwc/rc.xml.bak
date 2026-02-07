@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<labwc_config>
+  <core>
+    <decoration>server</decoration>
+    <gap>3</gap>
+  </core>
+  <theme>
+    <name>Walbox</name>
+    <cornerRadius>0</cornerRadius>
+    <font place="ActiveWindow">
+      <name>Google Sans Display</name>
+      <size>12</size>
+      <slant>normal</slant>
+      <weight>bold</weight>
+    </font>
+    <dropShadows>yes</dropShadows>
+    <icon>Papirus-Dark</icon>
+  </theme>
+  <keyboard>
+    <numlock>on</numlock>
+    <layoutScope>global</layoutScope>
+    <layout>us,ru</layout>
+    <variant/>
+    <options>grp:win_space_toggle</options>
+    <!-- Terminal -->
+    <keybind key="W-t">
+      <action name="Execute" command="kitty"/>
+    </keybind>
+    <!-- Kill window -->
+    <keybind key="W-q">
+      <action name="Close"/>
+    </keybind>
+    <!-- Application launcher -->
+    <keybind key="W-d">
+      <action name="Execute" command="fuzzel"/>
+    </keybind>
+    <!-- Browser -->
+    <keybind key="W-b">
+      <action name="Execute" command="thorium-browser"/>
+    </keybind>
+    <!-- File manager -->
+    <keybind key="W-e">
+      <action name="Execute" command="thunar"/>
+    </keybind>
+    <!-- Focus movement -->
+    <keybind key="W-h">
+      <action name="Focus" direction="left"/>
+    </keybind>
+    <keybind key="W-j">
+      <action name="Focus" direction="down"/>
+    </keybind>
+    <keybind key="W-k">
+      <action name="Focus" direction="up"/>
+    </keybind>
+    <keybind key="W-l">
+      <action name="Focus" direction="right"/>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="Focus" direction="left"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="Focus" direction="down"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="Focus" direction="up"/>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="Focus" direction="right"/>
+    </keybind>
+    <!-- Move windows -->
+    <keybind key="W-S-h">
+      <action name="Move" direction="left"/>
+    </keybind>
+    <keybind key="W-S-j">
+      <action name="Move" direction="down"/>
+    </keybind>
+    <keybind key="W-S-k">
+      <action name="Move" direction="up"/>
+    </keybind>
+    <keybind key="W-S-l">
+      <action name="Move" direction="right"/>
+    </keybind>
+    <keybind key="W-S-Left">
+      <action name="Move" direction="left"/>
+    </keybind>
+    <keybind key="W-S-Down">
+      <action name="Move" direction="down"/>
+    </keybind>
+    <keybind key="W-S-Up">
+      <action name="Move" direction="up"/>
+    </keybind>
+    <keybind key="W-S-Right">
+      <action name="Move" direction="right"/>
+    </keybind>
+    <!-- Workspaces -->
+    <keybind key="W-1">
+      <action name="GoToDesktop" to="1"/>
+    </keybind>
+    <keybind key="W-2">
+      <action name="GoToDesktop" to="2"/>
+    </keybind>
+    <keybind key="W-3">
+      <action name="GoToDesktop" to="3"/>
+    </keybind>
+    <keybind key="W-4">
+      <action name="GoToDesktop" to="4"/>
+    </keybind>
+    <keybind key="W-5">
+      <action name="GoToDesktop" to="5"/>
+    </keybind>
+    <keybind key="W-6">
+      <action name="GoToDesktop" to="6"/>
+    </keybind>
+    <keybind key="W-7">
+      <action name="GoToDesktop" to="7"/>
+    </keybind>
+    <keybind key="W-8">
+      <action name="GoToDesktop" to="8"/>
+    </keybind>
+    <keybind key="W-9">
+      <action name="GoToDesktop" to="9"/>
+    </keybind>
+    <keybind key="W-0">
+      <action name="GoToDesktop" to="10"/>
+    </keybind>
+    <!-- Move to workspaces -->
+    <keybind key="W-S-1">
+      <action name="SendToDesktop" to="1"/>
+    </keybind>
+    <keybind key="W-S-2">
+      <action name="SendToDesktop" to="2"/>
+    </keybind>
+    <keybind key="W-S-3">
+      <action name="SendToDesktop" to="3"/>
+    </keybind>
+    <keybind key="W-S-4">
+      <action name="SendToDesktop" to="4"/>
+    </keybind>
+    <keybind key="W-S-5">
+      <action name="SendToDesktop" to="5"/>
+    </keybind>
+    <keybind key="W-S-6">
+      <action name="SendToDesktop" to="6"/>
+    </keybind>
+    <keybind key="W-S-7">
+      <action name="SendToDesktop" to="7"/>
+    </keybind>
+    <keybind key="W-S-8">
+      <action name="SendToDesktop" to="8"/>
+    </keybind>
+    <keybind key="W-S-9">
+      <action name="SendToDesktop" to="9"/>
+    </keybind>
+    <keybind key="W-S-0">
+      <action name="SendToDesktop" to="10"/>
+    </keybind>
+    <!-- Fullscreen -->
+    <keybind key="W-f">
+      <action name="ToggleFullscreen"/>
+    </keybind>
+    <!-- Toggle floating -->
+    <keybind key="W-S-f">
+      <action name="ToggleAlwaysOnTop"/>
+    </keybind>
+    <!-- Reconfigure -->
+    <keybind key="W-S-c">
+      <action name="Reconfigure"/>
+    </keybind>
+    <!-- Exit -->
+    <keybind key="W-S-e">
+      <action name="Exit"/>
+    </keybind>
+    <!-- Screenshot -->
+    <keybind key="Insert">
+      <action name="Execute" command="grimshot copy anything"/>
+    </keybind>
+    <!-- Audio controls -->
+    <keybind key="XF86AudioMute">
+      <action name="Execute" command="pactl set-sink-mute @DEFAULT_SINK@ toggle"/>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ -5%"/>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute" command="pactl set-sink-volume @DEFAULT_SINK@ +5%"/>
+    </keybind>
+    <keybind key="XF86AudioMicMute">
+      <action name="Execute" command="pactl set-source-mute @DEFAULT_SOURCE@ toggle"/>
+    </keybind>
+    <!-- Brightness controls -->
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute" command="brightnessctl set 5%-"/>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute" command="brightnessctl set 5%+"/>
+    </keybind>
+    <!-- Alt-Tab -->
+    <keybind key="A-Tab">
+      <action name="NextWindow"/>
+    </keybind>
+  </keyboard>
+  <mouse>
+    <default/>
+    <context name="Frame">
+      <mousebind button="A-Left" action="Drag">
+        <action name="Move"/>
+      </mousebind>
+      <mousebind button="A-Right" action="Drag">
+        <action name="Resize"/>
+      </mousebind>
+    </context>
+  </mouse>
+  <windowRules>
+  </windowRules>
+  <desktops number="4"/>
+</labwc_config>

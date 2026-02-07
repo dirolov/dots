@@ -1,0 +1,27 @@
+# labwc environment variables
+
+# Set default applications
+export TERMINAL=kitty
+export BROWSER=thorium-browser
+export FILEMANAGER=thunar
+
+# Wayland specific
+export XDG_SESSION_TYPE=wayland
+export XDG_CURRENT_DESKTOP=labwc
+export XDG_SESSION_DESKTOP=labwc
+
+# Qt applications
+export QT_QPA_PLATFORM=wayland-egl
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export QT_QPA_PLATFORMTHEME=qt6ct
+
+# GTK applications  
+export GDK_BACKEND=wayland
+
+# Firefox
+export MOZ_ENABLE_WAYLAND=1
+
+# Java applications
+export _JAVA_AWT_WM_NONREPARENTING=1
+XKB_DEFAULT_LAYOUT=ru,us
+XKB_DEFAULT_OPTIONS=grp:win_space_toggle

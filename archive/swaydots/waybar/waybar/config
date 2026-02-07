@@ -1,0 +1,91 @@
+{
+    "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar at the bottom of your screen
+    "height": 25, // Waybar height
+    // "width": 1280, // Waybar width
+    // Choose the order of the modules
+    "modules-left": ["sway/workspaces","custom/arrow6","sway/mode","mpris"],
+    "modules-center": ["clock#1"],
+    "modules-right": ["custom/arrow5","pulseaudio","custom/arrow4", "clock#2", "custom/arrow3","cpu", "memory","custom/arrow1", "tray","custom/arrow2","sway/language"],
+    // Modules configuration
+     "sway/workspaces": {
+         "disable-scroll": false,
+         "all-outputs": false,
+         "format": "{name}"
+     },
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+    "tray": {
+	//"icon-size": 21,
+        "spacing": 10
+    },
+    "clock#1": {
+        "tooltip-format": "{:%Y-%m-%d | %H:%M}"
+    },
+	"clock#2": {
+		"format": "{:%d. %B %Y}",
+		 "tooltip-format": "{:%Y-%m-%d | %H:%M}"
+
+	},
+    "cpu": {
+        "format": "{usage}% "
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "network": {
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-disconnected": "Disconnected ⚠"
+    },
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "handsfree": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "mpris": {
+     	"format": "{status_icon} {artist} - {title}",
+     	"format-stopped": "",
+     	"status-icons": {
+     		"playing": "",
+     		"paused": "󰐊"
+   		  },
+	},
+	"custom/arrow1": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/arrow3": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/arrow4": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/arrow5": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/arrow6": {
+		"format": "",
+		"tooltip": false
+	},
+	"custom/arrow2": {
+		"format": "",
+		"tooltip": false
+	},
+}

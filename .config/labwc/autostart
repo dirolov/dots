@@ -1,0 +1,36 @@
+#!/bin/bash
+
+# Autostart script for labwc
+
+# XDG Desktop Portal
+/usr/lib/xdg-desktop-portal &
+/usr/lib/xdg-desktop-portal-gtk &
+/usr/lib/xdg-desktop-portal-wlr &
+
+# Authentication agent
+/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
+
+# Notification daemon
+mako &
+
+# Wlogout alternative (works very bad, fucking rust)
+#wleave -s -d 0 -f=true
+
+# Clipboard daemon
+copyq &
+
+# Wallpaper and colors
+wal -R --cols16 &
+
+# Xwayland satellite
+env DISPLAY=:0 xwayland-satellite &
+
+# Waybar
+env QT_QPA_PLATFORMTHEME=qt6ct lxqt-panel &
+
+# Set wallpaper
+if [ -f "$HOME/.cache/wal/wal" ]; then
+    swaybg -i "$(cat ~/.cache/wal/wal)" -m fill &
+elif [ -f "$HOME/.config/sway/wp.png" ]; then
+    swaybg -i "$HOME/.config/sway/wp.png" -m fill &
+fi
